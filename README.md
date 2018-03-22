@@ -6,13 +6,16 @@ An easy example is documented here: [https://blog.versioneye.com/2015/05/05/sett
 
 In short just use the Vagrant file in the repo and run
 
-```vagrant up
+```
+vagrant up
 ```
 
-```vagrant ssh
+```
+vagrant ssh
 ```
 
-```startxfce4&
+```
+startxfce4&
 ```
 
 
