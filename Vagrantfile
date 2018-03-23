@@ -32,5 +32,5 @@ Vagrant.configure(2) do |config|
     cd /opt/ && sudo tar -zxvf eclipse-committers-oxygen-3-linux-gtk-x86_64.tar.gz
   SHELL
 
-  config.vm.synced_folder "workspace/", "/home/vagrant/workspace/"
+  config.vm.synced_folder "workspace/", "/home/vagrant/workspace/", create: true
 end
