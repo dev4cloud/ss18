@@ -30,6 +30,11 @@ Vagrant.configure(2) do |config|
   
     sudo wget -O /opt/eclipse-committers-oxygen-3-linux-gtk-x86_64.tar.gz http://ftp.fau.de/eclipse/technology/epp/downloads/release/oxygen/3/eclipse-committers-oxygen-3-linux-gtk-x86_64.tar.gz
     cd /opt/ && sudo tar -zxvf eclipse-committers-oxygen-3-linux-gtk-x86_64.tar.gz
+
+    curl -sL https://deb.nodesource.com/setup_9.x | sudo -E bash -
+    sudo apt-get install -y nodejs
+    echo "installed node js"
+
   SHELL
 
   config.vm.synced_folder "workspace/", "/home/vagrant/workspace/", create: true
