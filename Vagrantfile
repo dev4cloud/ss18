@@ -42,11 +42,14 @@ Vagrant.configure(2) do |config|
     sudo apt-get install -y nodejs
     echo "installed node js"
 
+    sudo apt-get -q -y install git
+
     sudo apt-get -q -y install software-properties-common
 
     sudo apt-get -q -y install ansible python-pip python-dev libffi-dev libssl-dev
 
-    sudo pip install pytz shade
+    sudo pip install pytz shade boto
+
 
 
 
