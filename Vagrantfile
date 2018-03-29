@@ -48,7 +48,7 @@ Vagrant.configure(2) do |config|
 
     sudo apt-get -q -y install ansible python-pip python-dev libffi-dev libssl-dev
 
-    sudo pip install pytz shade boto
+    sudo pip install pytz shade boto boto3
 
 
 
