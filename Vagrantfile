@@ -42,7 +42,7 @@ Vagrant.configure(2) do |config|
     sudo apt-get install -y nodejs
     echo "installed node js"
 
-    sudo apt-get -q -y install git
+    sudo apt-get -q -y install git apache2-utils
 
     sudo apt-get -q -y install software-properties-common
 
